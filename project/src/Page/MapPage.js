@@ -7,7 +7,7 @@ const MapPage = () => {
     <div>
       <Button
         onClick={() => {
-          history.replace("/MapPage");
+          history.replace("/");
         }}
       >
         Mappage
