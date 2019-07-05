@@ -84,15 +84,14 @@ const MapHead = () => {
   ));
   const { history } = useReactRouter();
 
+  const goBack = () => {
+    history.replace("/");
+  };
   return (
     <div>
       <Drawer className={classes.list} variant="permanent" anchor="left">
-        <IconButton>
-          <AccountIcon
-            onClick={() => {
-              history.replace("/");
-            }}
-          />
+        <IconButton onClick={goBack}>
+          <AccountIcon />
         </IconButton>
         <div className={classes.list} role="presentation">
           <Divider />

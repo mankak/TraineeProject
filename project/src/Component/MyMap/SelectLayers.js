@@ -22,7 +22,7 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import AddIcon from "@material-ui/icons/Add";
-import { getMapLayers, checkErrorService } from "./Request";
+import { getMapLayers } from "./Request";
 import { MapContext } from "./MapContext";
 import DeleteIcon from "@material-ui/icons/DeleteSweep";
 //import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
